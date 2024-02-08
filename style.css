@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+@font-face {
+  font-family: "Diatype";
+  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Bold.otf);
+  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Bold.woff) format("woff");
+  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Bold.woff2) format("woff2");
+  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Regular.otf);
+  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Regular.woff) format("woff");
+  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'NB Grotesk';
+  src: url(fonts/NB\ Grotesk\ Pro\ Mono\ Regular.ttf);
+}
+
+h1, h2 {
+  font-family: 'Diatype';
+}
+
+h3, p, a{
+  font-family: 'NB Grotesk';
+}
+
+:root {
+  --white: #F7F6E6;
+}
+
+.hero {
+  color: var(--white);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__content {
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.footer {
+  height: 5vh;
+  justify-self: flex-end;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  color: var(--white);
+  background-color: black;
+  padding: 1em 0;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--white);
+  color: black;
+}
