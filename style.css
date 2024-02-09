@@ -1,10 +1,28 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
+} */
+
+:root {
+  --white: #F7F6E6;
+}
+
+html {
+  height: -webkit-fill-available;
 }
 
 body {
-  height: 100vh;
+  color: var(--white);
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @font-face {
@@ -30,35 +48,14 @@ h3, p, a{
   font-family: 'NB Grotesk';
 }
 
-:root {
-  --white: #F7F6E6;
-}
-
-.hero {
-  color: var(--white);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-image: url("background.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.hero__content {
+.main {
+  flex: 1;
   height: 95%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   gap: 2em;
-}
-
-.footer {
-  height: 5vh;
-  justify-self: flex-end;
 }
 
 .btn {
@@ -68,6 +65,11 @@ h3, p, a{
   background-color: black;
   padding: 1em 0;
   text-decoration: none;
+}
+
+.footer {
+  height: 5%;
+  background-color: inherit;
 }
 
 .btn:hover {
