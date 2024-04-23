@@ -62,17 +62,18 @@ h3, p, a{
   width: 100%;
   text-align: center;
   color: var(--white);
-  background-color: black;
+  background-color: #5D5246;
   padding: 1em 0;
   text-decoration: none;
-}
-
-.footer {
-  height: 5%;
-  background-color: inherit;
+  border-radius: 1.625em;
 }
 
 .btn:hover {
   background-color: var(--white);
   color: black;
+}
+
+.footer {
+  height: 5%;
+  background-color: inherit;
 }
