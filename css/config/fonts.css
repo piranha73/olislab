@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Diatype";
-  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Bold.otf);
-  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Bold.woff) format("woff");
-  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Bold.woff2) format("woff2");
-  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Regular.otf);
-  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Regular.woff) format("woff");
-  src: url(fonts/Diatype_Regular_Bold/ABCDiatype-Regular.woff2) format("woff2");
+  src: url(../../fonts/Diatype_Regular_Bold/ABCDiatype-Bold.otf);
+  src: url(../../fonts/Diatype_Regular_Bold/ABCDiatype-Bold.woff) format("woff");
+  src: url(../../fonts/Diatype_Regular_Bold/ABCDiatype-Bold.woff2) format("woff2");
+  src: url(../../fonts/Diatype_Regular_Bold/ABCDiatype-Regular.otf);
+  src: url(../../fonts/Diatype_Regular_Bold/ABCDiatype-Regular.woff) format("woff");
+  src: url(../../fonts/Diatype_Regular_Bold/ABCDiatype-Regular.woff2) format("woff2");
 }
 
 @font-face {
   font-family: 'NB Grotesk';
-  src: url(fonts/NB\ Grotesk\ Pro\ Mono\ Regular.ttf);
+  src: url(../../fonts/NB\ Grotesk\ Pro\ Mono\ Regular.ttf);
 }
 
 h1, h2 {
@@ -18,5 +18,13 @@ h1, h2 {
 }
 
 h3, p, a{
+  font-family: 'NB Grotesk';
+}
+
+input {
+  font-family: 'NB Grotesk';
+}
+
+input::placeholder {
   font-family: 'NB Grotesk';
 }

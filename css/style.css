@@ -3,19 +3,23 @@
   padding: 0;
 } */
 
-@import url(config/index.css);
+@import url('config/index.css');
 @import url('components/index.css');
-
+@import url('utilities/text.css');
 
 html {
   height: -webkit-fill-available;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   color: var(--white);
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  background-image: url("background.jpeg");
+  background-image: url("../background.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

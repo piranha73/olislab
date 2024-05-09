@@ -1,3 +1,40 @@
-#mc_embed_signup {
-  background-color: --white;
+#mc_embed_shell {
+  background-color: var(--white);
+  border-radius: 1em;
+  padding: 1em 3em;
+  width: 50%;
+}
+
+input {
+  width: 100%;
+  color: var(--white);
+  border-radius: 2em;
+  border: none;
+}
+
+input:focus {
+  outline: 3px solid grey;
+}
+
+.input-text {
+  height: 2em;
+  background-color: #7e766e;
+  margin-bottom: 1em;
+  text-align: center;
+  padding: .5em 1em;
+}
+
+.input-text::placeholder {
+  color: var(--white);
+  text-align: center;
+}
+
+input[type='submit']:hover {
+  border: 1px solid grey;
+}
+
+@media(max-width: 768px) {
+  #mc_embed_shell {
+    width: 95%;
+  }
 }
