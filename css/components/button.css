@@ -2,7 +2,7 @@
   width: 100%;
   text-align: center;
   color: var(--white);
-  background-color: #5D5246;
+  background-color: var(--brown);
   padding: 1em 0;
   text-decoration: none;
   border-radius: 1.625em;
