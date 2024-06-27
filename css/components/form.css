@@ -2,7 +2,7 @@
   background-color: var(--white);
   border-radius: 1em;
   padding: 1em 3em;
-  width: 50%;
+  width: 100%;
 }
 
 input:not([type='submit']) {

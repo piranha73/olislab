@@ -7,6 +7,7 @@
 @import url('components/index.css');
 @import url('utilities/text.css');
 
+
 html {
   height: -webkit-fill-available;
 }
@@ -27,19 +28,4 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-
-.main {
-  /* flex: 1; */
-  height: 95%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2em;
-}
-
-.footer {
-  height: 5%;
-  background-color: inherit;
 }
