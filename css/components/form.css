@@ -14,6 +14,7 @@ input:not([type='submit']) {
   border-bottom: 1px solid var(--brown);
   margin-bottom: 1em;
   padding: .5em 1em;
+  border-radius: 0;
 }
 
 input:focus {
